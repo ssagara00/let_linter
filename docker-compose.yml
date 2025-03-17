@@ -1,0 +1,9 @@
+services:
+  mygem:
+    build: .
+    volumes:
+      - .:/let_linter
+    command: /bin/bash
+    tty: true
+    ports:
+      - '3000:3000'
