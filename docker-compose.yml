@@ -2,7 +2,7 @@ services:
   mygem:
     build: .
     volumes:
-      - .:/let_linter
+      - .:/app
     command: /bin/bash
     tty: true
     ports:
